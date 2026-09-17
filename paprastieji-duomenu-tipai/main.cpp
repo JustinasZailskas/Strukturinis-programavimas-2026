@@ -9,8 +9,12 @@ int main() {
     string zaidejas = "Erling Haaland";
 
     int marskineliuNumeris = 9;
-    int ivarciai = 22;
-    int rungtynes = 17;
+    int ivarciai, rungtynes;
+
+    cout <<"Iveskite zaidejo "<<zaidejas<<" imustu ivarciu kieki Pasaulio cempionate";
+    cin >> ivarciai;
+    cout <<"Iveskite zaidejo " <<zaidejas<<" zaistu rungtyniu kieki Pasaulio cempionate";
+    cin >> rungtynes;
 
     double ugis = 1.95;
     double svoris = 88.7;
