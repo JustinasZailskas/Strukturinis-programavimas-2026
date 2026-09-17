@@ -1,0 +1,59 @@
+# ==============================
+# CLion / JetBrains
+# ==============================
+
+.idea/
+*.iml
+
+
+# ==============================
+# CMake / CLion build folders
+# ==============================
+
+cmake-build-*/
+build/
+build-*/
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+
+# ==============================
+# C / C++ generated files
+# ==============================
+
+*.o
+*.obj
+*.exe
+*.out
+
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+
+# ==============================
+# Operating system files
+# ==============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.log
+*.tmp
+*.temp
+*~
