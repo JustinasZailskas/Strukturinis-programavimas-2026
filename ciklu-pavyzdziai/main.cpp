@@ -51,59 +51,83 @@ int main() {
 
     //4 pavyzdys. Saskaitos valdymo meniu
 
-    int balance = 100;
-    int choice;
+    // int balance = 100;
+    // int choice;
+    //
+    // do {
+    //     cout << "\n--- SASKAITOS MENIU ---\n";
+    //     cout << "1. Perziureti balansa\n";
+    //     cout << "2. Papildyti balansa \n";
+    //     cout << "3. Atlikti mokejima \n";
+    //     cout << "0. Baigti programa \n";
+    //     cout << "Iveskite pasirinkima \n";
+    //     cin >> choice;
+    //
+    //     switch (choice) {
+    //         case 1:
+    //             cout << "Balansas: "<<balance<<" Eur\n";
+    //             break;
+    //         case 2: {
+    //             int amount;
+    //             cout <<"Papildymo suma: ";
+    //             cin >> amount;
+    //
+    //             if (amount > 0) {
+    //                 balance += amount;
+    //                 cout <<"Balansas papildytas. \n";
+    //             } else {
+    //                 cout <<"Neteisinga suma. Ivedama suma turi buti teigiama. \n";
+    //             }
+    //             break;
+    //         }
+    //         case 3: {
+    //             int amount;
+    //             cout << "Mokejimo suma";
+    //             cin >> amount;
+    //
+    //             if (amount <= 0) {
+    //                 cout <<"Neteisinga suma. \n";
+    //             } else if (amount > balance) {
+    //                 cout <<"Nepakankamas likutis balanse. \n";
+    //             } else {
+    //                 balance -= amount; //balance = balance - amount
+    //                 cout <<"Mokejimas atliktas \n";
+    //             }
+    //             break;
+    //         }
+    //         case 0:
+    //             cout <<"Programa baigiama. \n";
+    //             break;
+    //         default:
+    //             cout <<"Tokio pasirinkimo nera. \n";
+    //     }
+    //
+    //
+    // } while (choice != 0);
 
-    do {
-        cout << "\n--- SASKAITOS MENIU ---\n";
-        cout << "1. Perziureti balansa\n";
-        cout << "2. Papildyti balansa \n";
-        cout << "3. Atlikti mokejima \n";
-        cout << "0. Baigti programa \n";
-        cout << "Iveskite pasirinkima \n";
-        cin >> choice;
+    //5 pavyzdys. Studento pazymiu statistika
 
-        switch (choice) {
-            case 1:
-                cout << "Balansas: "<<balance<<" Eur\n";
-                break;
-            case 2: {
-                int amount;
-                cout <<"Papildymo suma: ";
-                cin >> amount;
+    const int gradesCount = 5;
+    int grade;
+    int sum = 0;
+    int highestGrade = 0;
 
-                if (amount > 0) {
-                    balance += amount;
-                    cout <<"Balansas papildytas. \n";
-                } else {
-                    cout <<"Neteisinga suma. Ivedama suma turi buti teigiama. \n";
-                }
-                break;
-            }
-            case 3: {
-                int amount;
-                cout << "Mokejimo suma";
-                cin >> amount;
 
-                if (amount <= 0) {
-                    cout <<"Neteisinga suma. \n";
-                } else if (amount > balance) {
-                    cout <<"Nepakankamas likutis balanse. \n";
-                } else {
-                    balance -= amount; //balance = balance - amount
-                    cout <<"Mokejimas atliktas \n";
-                }
-                break;
-            }
-            case 0:
-                cout <<"Programa baigiama. \n";
-                break;
-            default:
-                cout <<"Tokio pasirinkimo nera. \n";
+    for (int i = 1; i <= gradesCount; i++) {
+        cout <<"Iveskite "<<i<<" studento pazymi: ";
+        cin >> grade;
+
+        sum += grade;
+
+        if (grade > highestGrade) {
+            highestGrade = grade;
         }
+    }
 
-
-    } while (choice != 0);
+    double average = static_cast<double>(sum) / gradesCount;
+    cout <<fixed<< setprecision(2);
+    cout <<"Pazymiu vidurkis: "<<average <<endl;
+    cout <<"Didziausias pazymys: "<<highestGrade <<endl;
 
     return 0;
 }
