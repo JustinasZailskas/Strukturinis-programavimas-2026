@@ -49,6 +49,61 @@ int main() {
     //
     // cout << "Slaptazodis yra priimtas"<<endl;
 
-    //4 pavyzdys
+    //4 pavyzdys. Saskaitos valdymo meniu
+
+    int balance = 100;
+    int choice;
+
+    do {
+        cout << "\n--- SASKAITOS MENIU ---\n";
+        cout << "1. Perziureti balansa\n";
+        cout << "2. Papildyti balansa \n";
+        cout << "3. Atlikti mokejima \n";
+        cout << "0. Baigti programa \n";
+        cout << "Iveskite pasirinkima \n";
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                cout << "Balansas: "<<balance<<" Eur\n";
+                break;
+            case 2: {
+                int amount;
+                cout <<"Papildymo suma: ";
+                cin >> amount;
+
+                if (amount > 0) {
+                    balance += amount;
+                    cout <<"Balansas papildytas. \n";
+                } else {
+                    cout <<"Neteisinga suma. Ivedama suma turi buti teigiama. \n";
+                }
+                break;
+            }
+            case 3: {
+                int amount;
+                cout << "Mokejimo suma";
+                cin >> amount;
+
+                if (amount <= 0) {
+                    cout <<"Neteisinga suma. \n";
+                } else if (amount > balance) {
+                    cout <<"Nepakankamas likutis balanse. \n";
+                } else {
+                    balance -= amount; //balance = balance - amount
+                    cout <<"Mokejimas atliktas \n";
+                }
+                break;
+            }
+            case 0:
+                cout <<"Programa baigiama. \n";
+                break;
+            default:
+                cout <<"Tokio pasirinkimo nera. \n";
+        }
+
+
+    } while (choice != 0);
+
     return 0;
 }
