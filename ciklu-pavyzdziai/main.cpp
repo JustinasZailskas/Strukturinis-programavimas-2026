@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 
 using namespace std;
 
@@ -18,19 +19,36 @@ int main() {
 
     // 2 pavyzdys. Taupymas iki pasirinkto tikslo
 
-    double savings = 100.0;
-    const double target = 500.0;
-    const double monthlyDeposit = 75.0;
-    int month = 0;
+    // double savings = 100.0;
+    // const double target = 500.0;
+    // const double monthlyDeposit = 75.0;
+    // int month = 0;
+    //
+    // while (savings < target) {
+    //     month++;
+    //     savings += monthlyDeposit;
+    //     cout << month << " menuo "
+    //         <<fixed <<setprecision(2)
+    //         <<savings <<" EUR"<<endl;
+    // }
+    //
+    // cout <<"Tikslas pasiektas per "<<month<< " menesius"<<endl;
 
-    while (savings < target) {
-        month++;
-        savings += monthlyDeposit;
-        cout << month << " menuo "
-            <<fixed <<setprecision(2)
-            <<savings <<" EUR"<<endl;
-    }
+    //3 pavyzdys. Slaptozodzio kurimas
 
-    cout <<"Tikslas pasiektas per "<<month<< " menesius"<<endl;
+    // string password;
+    //
+    // do {
+    //     cout <<"Sukurkite slaptazodi bent 8 simboliu ilgumo"<<endl;
+    //     cin >> password;
+    //
+    //     if (password.length() < 8) {
+    //         cout << "Slaptazodis per trumpas. "<<endl;
+    //     }
+    // } while (password.length() < 8);
+    //
+    // cout << "Slaptazodis yra priimtas"<<endl;
+
+    //4 pavyzdys
     return 0;
 }
