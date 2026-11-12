@@ -1,0 +1,66 @@
+Sasha Vezenkov;Olympiacos;10;191
+T.J. Shorts II;Valencia Basket;10;169
+Dwayne Bacon;Dubai Basketball;10;163
+Kevin Punter;FC Barcelona;10;159
+Nadir Hifi;Paris Basketball;7;155
+Carsen Edwards;Zalgiris Kaunas;10;153
+Jordan Nwora;Crvena Zvezda;10;150
+Armoni Brooks;Valencia Basket;10;149
+Elijah Bryant;Hapoel Tel Aviv;10;148
+Theo Maledon;Real Madrid;9;147
+Mfiondu Kabengele;Dubai Basketball;10;146
+Patty Mills;ASVEL Villeurbanne;9;143
+Antonio Blakeney;Hapoel Tel Aviv;10;142
+Sylvain Francisco;Panathinaikos;10;138
+Justin Robinson;FC Barcelona;10;137
+Andres Feliz;Real Madrid;10;136
+Carlik Jones;Partizan Belgrade;10;136
+Scottie Wilbekin;Besiktas;10;133
+Vasilije Micic;Hapoel Tel Aviv;9;131
+Mathias Lessort;Panathinaikos;10;126
+Aliou Diarra;Virtus Bologna;10;123
+Cameron Payne;Anadolu Efes;7;123
+Duane Washington Jr.;Bayern Munich;8;122
+Jonas Valanciunas;Zalgiris Kaunas;10;121
+Moses Wright;Olimpia Milano;10;121
+Wendell Moore Jr.;Virtus Bologna;10;120
+Elie Okobo;Dubai Basketball;10;119
+Kameron Taylor;Valencia Basket;10;119
+Yam Madar;Maccabi Tel Aviv;10;117
+Azuolas Tubelis;Zalgiris Kaunas;10;116
+Hugo Besson;ASVEL Villeurbanne;10;116
+Shavon Shields;Fenerbahce;10;116
+Dario Saric;Anadolu Efes;10;114
+Talen Horton-Tucker;Fenerbahce;10;114
+Wade Baldwin IV;Fenerbahce;10;113
+Zach Leday;Hapoel Tel Aviv;10;112
+Daniel Oturu;Hapoel Tel Aviv;10;110
+Matthew Strazel;Anadolu Efes;10;108
+Jared Rhoden;Paris Basketball;8;106
+McKinley Wright IV;Dubai Basketball;10;106
+Collin Malcolm;Anadolu Efes;10;105
+Walter Tavares;Real Madrid;10;105
+Bonzie Colson;Maccabi Tel Aviv;10;104
+Nikola Mirotic;Valencia Basket;8;104
+Chima Moneke;Crvena Zvezda;10;103
+Jean Montero;Olympiacos;6;93
+Devon Hall;Olimpia Milano;10;92
+Johannes Thiemann;Bayern Munich;10;92
+Jae Crowder;ASVEL Villeurbanne;9;91
+Chris Jones;Crvena Zvezda;10;89
+Kenneth Faried;Baskonia;10;88
+Facundo Campazzo;Real Madrid;9;87
+Lamar Stevens;Partizan Belgrade;8;86
+O'Shae Brissett;Maccabi Tel Aviv;10;85
+Umoja Gibson;FC Barcelona;8;84
+Kevarrius Hayes;Partizan Belgrade;9;82
+Kendrick Nunn;Panathinaikos;4;81
+T.J. Warren;Paris Basketball;6;78
+Devon Dotson;Besiktas;8;76
+Tadas Sedekerskis;Baskonia;7;71
+Ante Zizic;Besiktas;9;66
+Daniel Theis;Maccabi Tel Aviv;8;63
+Tyler Dorsey;Olympiacos;5;63
+Tyty Washington Jr.;ASVEL Villeurbanne;6;63
+Tonye Jekiri;Partizan Belgrade;6;61
+Josh Nebo;FC Barcelona;7;58
