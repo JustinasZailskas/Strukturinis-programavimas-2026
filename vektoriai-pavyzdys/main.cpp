@@ -55,7 +55,7 @@ int main() {
     PlayerType temp;
 
     ifstream playerFile;
-    playerFile.open("players.txt");
+    playerFile.open("players_data.txt");
     if(!playerFile.is_open()) {
         cout<<"Cannot open the file"<<endl;
         return 1;
@@ -76,5 +76,20 @@ int main() {
 
     playerFile.close();
 
-
+    cout << left
+        << setw(18) << "Pavarde"
+        << right
+        << setw(8) << "PPG"
+        << setw(8) << "APG"
+        << setw(8) << "SPG"
+        <<endl;
+    for (int i = 0; i < players.size(); i++) {
+        cout << left
+        << setw(18) << players[i].name.lastName
+        <<right <<fixed << setprecision(1)
+        <<setw(8) << players[i].averages.avgPointsPerGame
+        <<setw(8) << players[i].averages.avgAssistsPerGame
+        <<setw(8) << players[i].averages.avgStealsPerGame
+        <<endl;
+    }
 }
