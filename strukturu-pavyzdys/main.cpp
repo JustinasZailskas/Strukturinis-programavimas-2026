@@ -38,7 +38,7 @@ int main() {
     }
 
     for (int i = 0; i < quantity; i++) {
-        cout <<"Komanda: " <<teams[i].title<< " yra is miesto: "<<teams[i].city<<endl;
+        cout <<i+1<<". Komanda: " <<teams[i].title<< " yra is miesto: "<<teams[i].city<<endl;
     }
 
     cout <<"-----Trynimas-----"<<endl;
@@ -53,7 +53,7 @@ int main() {
     }
     quantity--;
     for (int i = 0; i < quantity; i++) {
-        cout <<"Komanda: " <<teams[i].title<< " yra is miesto: "<<teams[i].city<<endl;
+        cout <<i+1<<". Komanda: " <<teams[i].title<< " yra is miesto: "<<teams[i].city<<endl;
     }
 
     cout << "Kokios komandos ieskote?"<<endl;
